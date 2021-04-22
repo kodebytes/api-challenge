@@ -15,6 +15,16 @@ span {
   margin: 0px 3px 0px 3px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer span {
+  float: right;
+}
+
 .card {
   width: 17rem;
   margin: auto;
@@ -25,7 +35,7 @@ span {
 }
 
 #country-list-group {
-  max-height: 30vh;
+  max-height: 300px;
 }
 
 #total-confirmed {
