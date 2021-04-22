@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+:root{
+  --confirmed: #ffcc29;
+  --death: #810000;
+  --recover: #5b8a72;
+
+}
+
 body, html {
-  font-family: "Abel", sans-serif;
+  font-family: "Abel", sans-serif !important;
 }
 
 span {
@@ -22,25 +29,13 @@ span {
 }
 
 #total-confirmed {
-  color: #ffcc29;
+  color: var(--confirmed);
 }
 
 #total-deaths {
-  color: #810000;
+  color: var(--death);
 }
 
 #total-recovered {
-  color: #5b8a72;
-}
-
-#new-confirmed {
-  color: #ffcc29;
-}
-
-#new-deaths {
-  color: #810000;
-}
-
-#new-recovered {
-  color: #5b8a72;
+  color: var(--recover);
 }

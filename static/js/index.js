@@ -46,7 +46,7 @@ const getCountryData = async (data) => {
     )
       .then((res) => res.json())
       .then((json) => {
-        console.log(json)
+        elemListGroup.querySelectorAll("*").forEach(node => node.remove())
         json.map((item) => {
           dataTemplate = `
           <li class="list-group-item d-flex justify-content-between align-items-start">
