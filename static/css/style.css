@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body, html {
+  font-family: "Abel", sans-serif;
+}
+
+span {
+  margin: 0px 3px 0px 3px;
+}
+
+.card {
+  width: 17rem;
+  margin: auto;
+}
+
+.row {
+  margin: 5px 0 5px 0;
+}
+
+#country-list-group {
+  max-height: 30vh;
+}
+
+#total-confirmed {
+  color: #ffcc29;
+}
+
+#total-deaths {
+  color: #810000;
+}
+
+#total-recovered {
+  color: #5b8a72;
+}
+
+#new-confirmed {
+  color: #ffcc29;
+}
+
+#new-deaths {
+  color: #810000;
+}
+
+#new-recovered {
+  color: #5b8a72;
+}
